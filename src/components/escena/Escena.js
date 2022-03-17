@@ -18,8 +18,6 @@ export const Escena = (props) => {
         };
     }, [props]);
     
-    
-
     return (
         <>
             <Txt isRight={isRight} className='txt'>

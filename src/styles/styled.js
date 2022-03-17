@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import fondo from '../img/fondo.jpg';
 
 
-//Cómo hago para que me reconozca las propiedades de css dentro de los backticks?
+//¿Cómo hago para que me reconozca las propiedades de css dentro de los backticks?
 
 //Advice page
 
