@@ -34,12 +34,10 @@ function Advice() {
         </CtHome>
         {
             data.map((txt, index) => (
-            <Escena data={txt} key={index} id={index} position={currentPosition}/>
+            <Escena data={txt} key={index} id={index} isRight={currentPosition === index}/>
             ))
         }
-
         <ImgBackground src={require(`../../img/${img}.jpg`)} alt="background image"></ImgBackground>
-
       </>
   )
 };
